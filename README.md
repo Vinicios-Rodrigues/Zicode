@@ -1,2 +1,2 @@
-# Zicode
+# Zipcode
 Created with CodeSandbox
