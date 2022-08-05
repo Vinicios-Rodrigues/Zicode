@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   /* background: ; */
-  height: 3rem;
+  height: 4rem;
   width: 100%;
-  max-width: 1024px;
   box-shadow: 2px 2px 5px black;
 
   .container {
@@ -17,21 +16,34 @@ export const Header = styled.header`
     align-items: center;
 
     h1 {
-      font: 600 1.2rem roboto;
+      font: 600 1.5rem roboto;
     }
   }
 `;
 
 export const WrapperSearch = styled.div`
   display: flex;
-  border: 1.8px solid black;
-  border-radius: 5px;
-  padding: 0.05rem;
-  height: 1.5rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
+  height: 1.7rem;
 
   input {
-    border: 0;
-    width: 7rem;
+    height: 100%;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .containerIcon {
+    width: 2rem;
+    background: lightgray;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
 `;

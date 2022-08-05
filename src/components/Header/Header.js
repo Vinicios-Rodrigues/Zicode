@@ -8,8 +8,10 @@ export const Header = () => {
         <div className="container">
           <h1>Buscador de CEP </h1>
           <S.WrapperSearch>
-            <input />
-            <BsSearch />
+            <input placeholder="Digite seu cep" />
+            <div className="containerIcon">
+              <BsSearch size={20} />
+            </div>
           </S.WrapperSearch>
         </div>
       </S.Header>
