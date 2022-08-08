@@ -6,12 +6,12 @@ export const Header = () => {
     <>
       <S.Header>
         <div className="container">
-          <h1>Buscador de CEP </h1>
+          <h1 className="animation">Buscador de CEP </h1>
           <S.WrapperSearch>
             <input placeholder="Digite seu cep" />
-            <div className="containerIcon">
-              <BsSearch size={20} />
-            </div>
+            <button className="containerIcon">
+              <BsSearch size={16} color="white" />
+            </button>
           </S.WrapperSearch>
         </div>
       </S.Header>

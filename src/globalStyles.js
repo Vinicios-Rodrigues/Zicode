@@ -32,8 +32,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'Roboto', sans-serif;
   margin: 0;
+	font-family: 'Special Elite', cursive;
+	height: 100vh;
+	background: #171717;
 }
 ol, ul {
 	list-style: none;
