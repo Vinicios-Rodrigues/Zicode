@@ -4,12 +4,19 @@ export const Main = () => {
   return (
     <S.Container>
       <table>
-        <th>
-          <td>Rua </td>
-          <td> Complemento</td>
-          <td>Bairro </td>
-          <td> Cidade/ Estado</td>
-        </th>
+        <thead>
+          <tr>
+            <th>Rua</th>
+            <th>Complemento</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>vini</td>
+          </tr>
+        </tbody>
       </table>
     </S.Container>
   );
