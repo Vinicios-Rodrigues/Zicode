@@ -62,6 +62,7 @@ export const WrapperSearch = styled.div`
     border: 0;
     background: #171717;
     outline: none;
+    color: white ;
   }
   input::placeholder {
     color: rgba(255, 255, 255, 0.7);
